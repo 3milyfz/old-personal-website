@@ -52,7 +52,7 @@ const Works = () => {
             <ambientLight intensity={0.3}/>
             <directionalLight position={[3,2,1]}/>
              <Torus args={[2, 0.7, 16, 100]}>
-            <MeshDistortMaterial color="#62cbd3" attach="material" distort={0.2} speed={2}/> 
+            <MeshDistortMaterial color="#75eff7" attach="material" distort={0.2} speed={2}/> 
             </Torus>
           </Canvas>
           <Title>Projects coming soon...</Title>

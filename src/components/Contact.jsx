@@ -140,7 +140,7 @@ const Contact = () => {
             <ambientLight intensity={0.5}/>
             <directionalLight position={[3,2,1]}/>
             <Sphere args={[1,100,200]} scale={2.3}>
-            <MeshDistortMaterial color="#71aaf5" attach="material" distort={0.5} speed={2}/> 
+            <MeshDistortMaterial color="#76b1ff" attach="material" distort={0.5} speed={2}/> 
             </Sphere>
           </Canvas>
          <Img src="./img/emily2.png" />
