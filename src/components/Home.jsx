@@ -163,7 +163,7 @@ const Home = () => {
             <Subtitle>Welcome to my website</Subtitle>
           </WhatWeDo>
           <Desc>
-          I'm Emily, a Computer Science student on a journey to explore and innovate in the world of technology.
+          I'm Emily, a Computer Science student on a journey to explore and innovate the world of technology.
           </Desc>
         </Left>
         <Right>
