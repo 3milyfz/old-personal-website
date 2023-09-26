@@ -83,7 +83,7 @@ const NavBar = () => {
               <List>
                 <Img src="./img/email.png" onClick={()=> window.location='mailto:emilyfaithzhou@mail.utoronto.ca'}/>
                 <Img src="./img/linkedin.png" onClick={()=>window.open('https://www.linkedin.com/in/emily-fz/')}/>
-                <Img src="./img/github.png" onClick={()=>window.open('https://github.com/3m1ly03')}/>
+                <Img src="./img/github.png" onClick={()=>window.open('https://github.com/3milyfz')}/>
                 <Img src="./img/instagram.png" onClick={()=>window.open('https://www.instagram.com/emilyyzhou/')}/>
               </List>
             </Links>
