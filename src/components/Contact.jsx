@@ -10,7 +10,7 @@ const Section = styled.div`
   scroll-snap-align: center;
 
   @media only screen and (max-width: 768px) {
-    height: 200vh;
+    height: 100vh;
   }
 `;
 
@@ -84,8 +84,7 @@ position: relative;
 align-items: center;
 
 @media only screen and (max-width: 768px) {
-    width: 100%;
-    align-items: center;
+    display: none;
   }
 `;
 

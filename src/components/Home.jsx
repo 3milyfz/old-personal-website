@@ -14,7 +14,7 @@ const Section = styled.div`
   justify-content: space-between;
 
   @media only screen and (max-width: 768px) {
-    height: 200vh;
+    height: 100vh;
   }
 `;
 
@@ -52,6 +52,7 @@ const Title = styled.h1`
 
   @media only screen and (max-width: 768px) {
     text-align: center;
+    font-size: 45px;
   }
 `;
 
@@ -75,6 +76,7 @@ const Desc = styled.p`
   @media only screen and (max-width: 768px) {
     padding: 20px;
     text-align: center;
+    font-size: 20px;
   }
 `;
 
@@ -89,20 +91,13 @@ border-radius: 5px;
 cursor: pointer;
 `;
 
-const P = styled.p`
-  @media only screen and (max-width: 768px) {
-    text-align: center;
-  }
-`
-
 const Right = styled.div`
   flex: 1;
   position: relative;
   align-items: center;
   
   @media only screen and (max-width: 768px) {
-    flex: 1;
-    width: 100%;
+    display: none;
   }
 `;
 
@@ -144,18 +139,18 @@ const Home = () => {
         <Left>
           <Title>
             <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Hello there!")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("I'm glad you made it.")
-                .pauseFor(1000)
-                .start()
-            }}
-            options={{
-              loop: true,
-            }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Hello there!")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("I'm glad you made it.")
+                  .pauseFor(1000)
+                  .start()
+              }}
+              options={{
+                loop: true,
+              }}
             />
           </Title>
           <WhatWeDo>
@@ -163,7 +158,7 @@ const Home = () => {
             <Subtitle>Welcome to my website</Subtitle>
           </WhatWeDo>
           <Desc>
-          I'm Emily, a Computer Science student on a journey to explore and innovate the world of technology.
+            I'm Emily, a Computer Science student on a journey to explore and innovate the world of technology.
           </Desc>
         </Left>
         <Right>

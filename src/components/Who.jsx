@@ -11,7 +11,7 @@ const Section = styled.div`
   justify-content: center;
 
   @media only screen and (max-width: 768px) {
-    height: 200vh;
+    height: 100vh;
   }    
 `;
 
@@ -24,24 +24,24 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
-flex: 1.5;
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 20px;
-padding: 30px;
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
 
-@media only screen and (max-width: 768px) {
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-  }
+  @media only screen and (max-width: 768px) {
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
 `;
 
 const WhatWeDo = styled.div`
-display: flex;
-align-items: center;
-gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 `;
 
 const Title = styled.h1`
@@ -49,20 +49,32 @@ const Title = styled.h1`
 
   @media only screen and (max-width: 768px) {
     text-align: center;
+    font-size: 45px;
   }
 `;
 
 const Line = styled.img`
-height: 5px;
+  height: 5px;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const Subtitle = styled.h2`
-color: #c569da;
+  color: #c569da;
+  @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
 `;
 
 const Desc = styled.p`
-font-size: 24px;
-color: #636363;
+  font-size: 24px;
+  color: #636363;
+  @media only screen and (max-width: 768px) {
+      padding: 10px;
+      text-align: left;
+      font-size: 20px;
+    }
 `;
 
 const Right = styled.div`
@@ -83,7 +95,7 @@ const Who = () => {
           </Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Passionate. Innovative. Analytical. Tenacious.</Subtitle>
+            <Subtitle>Passionate. Tenacious. Innovative.</Subtitle>
           </WhatWeDo>
           <Desc> 👩🏻‍🎓  I'm pursuing a specialization in computer science and a minor in statistics at the University of Toronto. I expect to graduate in December of 2025!</Desc>
           <Desc> 🔍  I'm a curious explorer who is passionate about pushing the boundaries of innovation. I'm always ready to embrace the unknown.</Desc>
