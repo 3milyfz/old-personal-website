@@ -95,7 +95,7 @@ const Who = () => {
           </Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Passionate. Tenacious. Innovative.</Subtitle>
+            <Subtitle>Curious. Resilient. Innovative.</Subtitle>
           </WhatWeDo>
           <Desc> 👩🏻‍🎓  I'm pursuing a specialization in computer science and a minor in statistics at the University of Toronto. I expect to graduate in December of 2025!</Desc>
           <Desc> 🔍  I'm a curious explorer who is passionate about pushing the boundaries of innovation. I'm always ready to embrace the unknown.</Desc>
