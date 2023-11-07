@@ -79,7 +79,7 @@ const NavBar = () => {
     <Section>
         <Container>
             <Links>
-              <Logo src="./img/logo3.png"/>
+              <Logo src="./img/logo.png"/>
               <List>
                 <Img src="./img/email.png" onClick={()=> window.location='mailto:emilyfaithzhou@mail.utoronto.ca'}/>
                 <Img src="./img/linkedin.png" onClick={()=>window.open('https://www.linkedin.com/in/emily-fz/')}/>
